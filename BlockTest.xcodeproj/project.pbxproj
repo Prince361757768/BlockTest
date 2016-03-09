@@ -15,6 +15,9 @@
 		1C1A5D871BEC35E1008CFAAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1A5D851BEC35E1008CFAAD /* LaunchScreen.storyboard */; };
 		1C1A5D921BEC35E1008CFAAD /* BlockTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A5D911BEC35E1008CFAAD /* BlockTestTests.m */; };
 		1C1A5D9D1BEC35E1008CFAAD /* BlockTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A5D9C1BEC35E1008CFAAD /* BlockTestUITests.m */; };
+		1C1A5DAD1BEC3636008CFAAD /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1A5DAB1BEC3636008CFAAD /* TwoViewController.m */; };
+		1C1A5DAE1BEC3636008CFAAD /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C1A5DAC1BEC3636008CFAAD /* TwoViewController.xib */; };
+		93470DDA1C8FF7810013149D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 93470DD91C8FF7810013149D /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		1C1A5D981BEC35E1008CFAAD /* BlockTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C1A5D9C1BEC35E1008CFAAD /* BlockTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTestUITests.m; sourceTree = "<group>"; };
 		1C1A5D9E1BEC35E1008CFAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C1A5DAA1BEC3636008CFAAD /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		1C1A5DAB1BEC3636008CFAAD /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		1C1A5DAC1BEC3636008CFAAD /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
+		93470DD91C8FF7810013149D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +112,11 @@
 				1C1A5D7B1BEC35E1008CFAAD /* AppDelegate.m */,
 				1C1A5D7D1BEC35E1008CFAAD /* ViewController.h */,
 				1C1A5D7E1BEC35E1008CFAAD /* ViewController.m */,
+				1C1A5DAA1BEC3636008CFAAD /* TwoViewController.h */,
+				1C1A5DAB1BEC3636008CFAAD /* TwoViewController.m */,
+				1C1A5DAC1BEC3636008CFAAD /* TwoViewController.xib */,
 				1C1A5D801BEC35E1008CFAAD /* Main.storyboard */,
+				93470DD91C8FF7810013149D /* 1.png */,
 				1C1A5D831BEC35E1008CFAAD /* Assets.xcassets */,
 				1C1A5D851BEC35E1008CFAAD /* LaunchScreen.storyboard */,
 				1C1A5D881BEC35E1008CFAAD /* Info.plist */,
@@ -246,6 +257,8 @@
 				1C1A5D871BEC35E1008CFAAD /* LaunchScreen.storyboard in Resources */,
 				1C1A5D841BEC35E1008CFAAD /* Assets.xcassets in Resources */,
 				1C1A5D821BEC35E1008CFAAD /* Main.storyboard in Resources */,
+				1C1A5DAE1BEC3636008CFAAD /* TwoViewController.xib in Resources */,
+				93470DDA1C8FF7810013149D /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +286,7 @@
 				1C1A5D7F1BEC35E1008CFAAD /* ViewController.m in Sources */,
 				1C1A5D7C1BEC35E1008CFAAD /* AppDelegate.m in Sources */,
 				1C1A5D791BEC35E1008CFAAD /* main.m in Sources */,
+				1C1A5DAD1BEC3636008CFAAD /* TwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +512,7 @@
 				1C1A5DA31BEC35E1008CFAAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C1A5DA41BEC35E1008CFAAD /* Build configuration list for PBXNativeTarget "BlockTestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +521,7 @@
 				1C1A5DA61BEC35E1008CFAAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C1A5DA71BEC35E1008CFAAD /* Build configuration list for PBXNativeTarget "BlockTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +530,7 @@
 				1C1A5DA91BEC35E1008CFAAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
